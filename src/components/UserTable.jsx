@@ -2,8 +2,8 @@ import React from "react";
 
 const UserTable = ({ users, onView }) => {
   return (
-    <table className="table table-bordered table-hover bg-white">
-      <thead className="table-dark">
+    <table className="table table-hover bg-white">
+      <thead className="table-light">
         <tr>
           <th>ID</th>
           <th>Name</th>
