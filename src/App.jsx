@@ -8,7 +8,6 @@ import UserDataPage from './pages/userDataPage';
 
 const App=() =>{
   return (
-    <Router>
       <Routes>
         <Route path='/' element={<Login/>} />
         <Route path ='/dashboard' element={<Dashboard />} />
@@ -16,7 +15,6 @@ const App=() =>{
           }></Route>
         <Route path="/user-data" element={<UserDataPage/>}></Route>
       </Routes>
-    </Router>  
     );
 };
 
